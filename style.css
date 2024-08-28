@@ -1,0 +1,93 @@
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.grid {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.card {
+    /* width: 150px; */
+    min-height: 100px;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+}
+
+.card_2 {
+    grid-column: span 2;
+}
+
+.card_3 {
+    grid-row: span 2;
+}
+
+.card_6 {
+    grid-row: span 3;
+}
+
+.card_7 {
+    grid-column: span 2;
+}
+
+.card_9{
+    grid-column: span 3;
+}
+
+.card_10{
+    grid-column: span 2;
+}
+
+.card_11{
+    grid-row: span 2;
+}
+
+.card_12{
+    grid-column: span 2;
+}
+
+.card_13{
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.card_14{
+    grid-row: span 2;
+}
+
+.card_15{
+    grid-column: span 3;
+}
+
+.card_16{
+    grid-row: span 2;
+}
+
+.card_17{
+    grid-row: span 3;
+}
+
+.card_18{
+    grid-column: span 3;
+    grid-row: span 2;
+}
+
+.card_19{
+    grid-column: span 2;
+}
+
+.card_20{
+    grid-column: span 3;
+}
+
+.card_21{
+    grid-column: span 3;
+}
